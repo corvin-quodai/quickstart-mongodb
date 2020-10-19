@@ -187,11 +187,12 @@
         },
         "VolumeType": {
             "Type": "String",
-            "Description": "EBS Volume Type (data) to be attached to node in GBs [io1,gp2]",
+            "Description": "EBS Volume Type (data) to be attached to node in GBs [io1,gp2,st1]",
             "Default": "gp2",
             "AllowedValues": [
                 "gp2",
-                "io1"
+                "io1",
+                "st1"
             ]
         },
         "Iops": {
